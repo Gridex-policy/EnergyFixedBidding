@@ -512,6 +512,10 @@ td.hi{background:var(--highlight);color:#013364}
 
   <h3 style="margin-top:32px">두 가지 계약 방식과 정산 공식</h3>
   <p style="margin-top:8px;max-width:46em">입찰은 모두 'SMP + 1REC' 기준 가격으로 하지만, 선정 뒤 공급의무자와 계약할 때 방식을 하나 고릅니다. 가중치가 1이면 두 방식의 결과가 같고, 가중치가 1이 아니면 SMP가 움직일 때 결과가 갈립니다.</p>
+  <div class="note" style="margin-top:12px;max-width:46em">
+    <b>SMP는 고정되지 않는다</b>
+    <span>고정되는 것은 1REC 기준으로 본 'SMP + REC 단가'의 합계뿐이고, SMP는 매달 시장가격대로 움직입니다. SMP가 1원 오르면 REC 1개의 정산단가가 1원 내려갑니다. 가중치 1.2 설비는 1MWh마다 REC를 1.2개 받으므로, A 방식에서는 SMP에서 1원을 더 받고 REC에서 1.2원을 덜 받아 1MWh당 0.2원이 줄어듭니다. 그래서 '고정가격계약이니 수입이 고정된다'는 말은 가중치가 1이거나 B 방식일 때만 맞습니다.</span>
+  </div>
   <div class="grid g2" style="margin-top:16px">
     <article class="card">
       <div class="qhead"><span class="badge blue">A</span><h3>SMP + 1REC 가격 방식</h3></div>
@@ -523,6 +527,10 @@ td.hi{background:var(--highlight);color:#013364}
       <div class="formula">고정가격 F = 기준SMP + (P − 기준SMP) × 가중치<br>REC 단가 = (F − SMP) ÷ 가중치<br>월 정산금 = 발전량 × F<br><span class="c">기준SMP: 공고에서 제시. 2026년 86,350원/MWh</span></div>
       <p>SMP가 얼마든 1MWh당 수입이 F로 고정됩니다. 가중치가 1보다 큰 설비는 SMP가 기준SMP보다 높을 때 A 방식보다 유리하고, 낮을 때 불리합니다.</p>
     </article>
+  </div>
+  <div class="note warn" style="margin-top:12px">
+    <b>B 방식을 지금도 고를 수 있는지 확인하십시오</b>
+    <span>두 방식 중 하나를 고를 수 있다는 근거는 한국에너지공단 FAQ이며, 답변 기준일이 2024년 8월입니다. 2026년 1차 공고에서도 B 방식 선택이 가능한지는 확인되지 않았습니다. 계약 전에 해당 회차 공고문과 공급의무자 계약서의 계약 방식 조항을 확인하십시오.</span>
   </div>
 
   <h3 style="margin-top:32px">공단 공식 예시 그대로 따라가기</h3>
