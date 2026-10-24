@@ -1,5 +1,8 @@
 # 재생에너지 고정가격 입찰제도 해설
 
+> 소속: [Gridex-policy](https://github.com/Gridex-policy) · 저장소: [Gridex-policy/EnergyFixedBidding](https://github.com/Gridex-policy/EnergyFixedBidding) · 공개
+
+
 RPS 고정가격계약 경쟁입찰(태양광·풍력)의 구조, 평가 기준, 최근 입찰 실적, 2027년 재생에너지 계약시장 전환까지 한 페이지로 정리한 해설 사이트입니다.
 
 - 페이지: `index.html` (의존성 없는 단일 HTML, Google Fonts만 외부 로드)
@@ -8,7 +11,7 @@ RPS 고정가격계약 경쟁입찰(태양광·풍력)의 구조, 평가 기준,
 
 ## GitHub Pages
 
-공개 주소: https://gridex-khj.github.io/EnergyFixedBidding/
+공개 주소: https://gridex-policy.github.io/EnergyFixedBidding/
 
 `gh-pages` 브랜치에서 배포됩니다. 페이지를 고친 뒤에는 같은 커밋을 `gh-pages`에도 푸시하십시오.
 
